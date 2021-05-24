@@ -6,8 +6,13 @@
 
 ![](1-my-clock/1.png)<br>
 [DEMO](https://codepen.io/mahmuttz/pen/BaoEmEG) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/1-my-clock)
----
+
 2. Custom Cursor
 
 ![](2-custom-cursor/2.png)<br>
 [DEMO](https://codepen.io/mahmuttz/pen/qBrrYdW) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/2-custom-cursor)
+
+4. Coming Soon Page
+
+![](4-coming-soon/4.png)<br>
+[DEMO](https://codepen.io/mahmuttz/pen/WNpjKPR?editors=1000) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/4-coming-soon)
