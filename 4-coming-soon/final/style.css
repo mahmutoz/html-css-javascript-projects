@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 9fr 6fr;
+  grid-column: 1fr;
+  place-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  row-gap: 10%;
+  align-content: space-between;
+  margin-top: 10%;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font: 400 15px/25px roboto;
+  position: relative;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 -2px 19px -1px rgba(0, 0, 0, 0.1);
+  padding: 18px 15px;
+}
+
+.dot {
+  font: 700 50px/75px lato;
+  margin: auto;
+}
+
+.day-count,
+.hour-count,
+.minute-count,
+.second-count {
+  font: 900 48px/48px "Poppins", sans-serif;
+  padding-bottom: 10px;
+}
+
+.container .text {
+  width: 80%;
+  text-align: center;
+  font: 600 18px/27px lato, serif;
+  color: #555;
+}
+
+form.newsletter {
+  width: 75%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.newsletter input[type="email"] {
+  border-radius: 25px 0 0 25px;
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.newsletter input[type="email"]:focus {
+  outline: none;
+}
+
+.newsletter input[type="submit"] {
+  border: 1px solid rgb(220, 220, 220);
+  border-left: none;
+  background-color: rgb(5, 4, 4);
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+}
+
+.location {
+  text-decoration: none;
+  color: #555;
+  font: italic 400 17px/30px Merriweather;
+}
+
+.location i {
+  padding-right: 8px;
+  font-size: 19px;
+}
+
+footer {
+  align-self: flex-end;
+}
+
+footer .social-media a {
+  text-decoration: none;
+}
+
+footer .social-media a i {
+  padding: 5px 12px;
+  color: #555;
+  font-size: 16px;
+}
