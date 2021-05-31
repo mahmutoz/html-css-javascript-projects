@@ -9,7 +9,7 @@
 
 2. Custom Cursor
 
-![](2-custom-cursor/2.png)<br>
+![](2-custom-cursor/2.gif)<br>
 [DEMO](https://codepen.io/mahmuttz/pen/qBrrYdW) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/2-custom-cursor)
 
 3. Scratch Background
@@ -21,3 +21,8 @@
 
 ![](4-coming-soon/4.png)<br>
 [DEMO](https://codepen.io/mahmuttz/pen/WNpjKPR?editors=1000) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/4-coming-soon)
+
+5. Battery Status
+
+![](5-battery-status/5.gif)<br>
+[DEMO](https://codepen.io/mahmuttz/pen/YzZEgzW) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/5-battery-status)
