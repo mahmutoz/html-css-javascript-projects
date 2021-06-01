@@ -26,3 +26,8 @@
 
 ![](5-battery-status/5.gif)<br>
 [DEMO](https://codepen.io/mahmuttz/pen/YzZEgzW) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/5-battery-status)
+
+6. Product Add & Delete
+
+![](6-product-add-delete/6.png)<br>
+[DEMO](https://codepen.io/mahmuttz/pen/qBrpzMb) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/6-product-add-delete)
