@@ -1,1 +1,1 @@
-'use-script';
+'use script';

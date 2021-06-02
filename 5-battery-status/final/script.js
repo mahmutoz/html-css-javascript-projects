@@ -1,4 +1,4 @@
-'use-script';
+'use script';
 let batteryLevelDisplay = document.querySelector('.battery--level');
 let batteryPercent = document.querySelector('.battery--percent');
 let batteryCharging = document.querySelector('.battery--charging');

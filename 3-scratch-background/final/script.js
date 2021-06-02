@@ -1,4 +1,4 @@
-'use-strict';
+'use strict';
 
 document.addEventListener('mousemove', function (e){
     const body = document.querySelector('body');

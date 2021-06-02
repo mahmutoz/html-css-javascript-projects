@@ -1,4 +1,4 @@
-'use-strict';
+'use strict';
 
 const cursorIn = document.querySelector('.cursor--in');
 const cursorOut = document.querySelector('.cursor--out');

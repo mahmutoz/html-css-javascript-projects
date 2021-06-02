@@ -1,6 +1,6 @@
-# Javascript Projects
+# HTML, CSS & Javascript Projects
 
-### This repository contains my javascript works ✨
+### This repository contains my HTML, CSS amd Javascript works ✨
 
 1. My Clock
 
@@ -31,3 +31,8 @@
 
 ![](6-product-add-delete/6.png)<br>
 [DEMO](https://codepen.io/mahmuttz/pen/qBrpzMb) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/6-product-add-delete)
+
+7. Typewriter Animation
+
+![](7-typewriter-animation/7.gif)<br>
+[DEMO](https://codepen.io/mahmuttz/pen/qBrpzMb) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/7-typewriter-animation)
