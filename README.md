@@ -35,4 +35,4 @@
 7. Typewriter Animation
 
 ![](7-typewriter-animation/7.gif)<br>
-[DEMO](https://codepen.io/mahmuttz/pen/qBrpzMb) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/7-typewriter-animation)
+[DEMO](https://codepen.io/pen/?editors=0100) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/7-typewriter-animation)
