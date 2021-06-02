@@ -1,0 +1,110 @@
+:root {
+    --bg-color: #fce3e3;
+    --text-color: #4c3381;
+    --typeSpeed: 3s;
+    --characterCount: 10;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Code", monospace;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background: var(--bg-color);
+    min-height: 100vh;
+}
+
+.title {
+    position: relative;
+    font-size: clamp(1rem, 4vw, 4rem);
+    font-weight: 500;
+    width: max-content;
+    overflow: hidden;
+}
+
+.title::before,
+.title::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.title::before {
+    background-color: var(--bg-color);
+    animation: typing var(--typeSpeed) steps(var(--characterCount)) 1s forwards;
+}
+
+.title::after {
+    width: .1em;
+    background-color: var(--text-color);
+    animation:
+            typing var(--typeSpeed) steps(var(--characterCount)) 1s forwards,
+            blink 800ms steps(var(--characterCount)) infinite;
+}
+
+@keyframes typing {
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes blink {
+    to {
+        background: transparent;
+    }
+}
+
+.sub-title {
+    margin-top: 2rem;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 2s ease calc(var(--typeSpeed) + 1s) forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
