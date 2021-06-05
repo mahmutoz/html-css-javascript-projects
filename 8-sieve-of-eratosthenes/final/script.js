@@ -5,7 +5,7 @@ const primeNumbersResult = d.querySelector('.prime-numbers');
 let maxValue = false;
 
 const enterANumber = function (){
-    return +prompt('Enter a number (2-10000)', "100");
+    return +prompt('Enter a number (2-10.000)', "100");
 }
 
 while(!maxValue){
@@ -59,15 +59,15 @@ const primeNumbersFind = function (){
                 j += i;
             } else {
                 d.querySelector(`.item-${i}`).style.transform = "scale(1)";
-                i += 1;
+                i++;
                 j = 0;
             }
         } else {
-            i += 1;
+            i++;
         }
     } else {
         clearInterval(animate);
-        for(let x = i; x < allValues.length; x++){
+        for(let x = i; x <= allValues.length; x++){
             if(allValues[x])
                 primes.push(x);
         }
@@ -77,8 +77,8 @@ const primeNumbersFind = function (){
 
 const result = function (){
     if(init < primes.length){
-        if (init-1 > 0) d.querySelector(`.item-${primes[init-1]}`).style.transform = "scale(1)";
-        d.querySelector(`.item-${primes[init]}`).style.transform = "scale(1.2)";
+        if (init-1 >= 0) d.querySelector(`.item-${primes[init-1]}`).style.transform = "scale(1)";
+        d.querySelector(`.item-${primes[init]}`).style.transform = "scale(1.1)";
         primeNumbersResult.textContent += `, ${primes[init]}`;
         ++init;
     }else {
@@ -87,11 +87,9 @@ const result = function (){
         for(let k=0; k < allValues.length; k++){
             if (allValues[k]){
                 let el = d.querySelector(`.item-${k}`);
-                el.style.background = "rebeccapurple";
-                el.style.transform = "scale(1.01)";
+                el.style.background = "black";
                 el.style.color = "white";
-                el.style.fontWeight = "800";
-                el.style.fontSize = "1.5rem";
+                el.style.fontWeight = "700";
             }
         }
     }
@@ -99,4 +97,4 @@ const result = function (){
 
 let animate = setInterval(function(){
     primeNumbersFind();
-},100);
+},150);
