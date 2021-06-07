@@ -132,7 +132,7 @@ table.table tr:nth-child(2n + 1) {
 
 td.del {
   position: relative;
-  background-color: #6ca25e;
+  background-color: #cf4545;
   color: #fff;
   cursor: pointer;
   text-align: center;

@@ -68,10 +68,10 @@ function localStorageRead(){
     for (let i = 0; i < lName.length; i++) {
         const tr = document.createElement('tr');
         tr.innerHTML = `<td>${lName[i]}</td><td>${lModel[i]}</td><td>${lPrice[i]}</td><td class="del">X</td>`;
-        console.log(tr);
         tableBody.appendChild(tr);
     }
-    tableEl.style.display = 'table';
+    if(lName.length  !== 0 && lModel.length !== 0 && lPrice.length !== 0)
+        tableEl.style.display = 'table';
 }
 
 UI.prototype.productAdd = function (product) {
@@ -105,13 +105,34 @@ UI.prototype.clearForm = function (product) {
 }
 
 UI.prototype.productDelete = function (target) {
-    (target.className === 'del') ? target.parentElement.remove(): "";
-    localStorageDelete(target.parentElement);
+    if(target.className === 'del') {
+        target.parentElement.remove();
+        localStorageDelete(target.parentElement);
+    }
 }
 
 function localStorageDelete(item){
+    const tableEl = document.querySelector('.table');
+
     const [lName, lModel, lPrice] = localStorageOperations();
+    let temp = true, nIndex = -1, mIndex = -1, pIndex = -1;
 
+    while (temp){
+    nIndex = lName.indexOf(item.children[0].textContent, nIndex + 1);
+    mIndex = lModel.indexOf(item.children[1].textContent, mIndex + 1);
+    pIndex = lPrice.indexOf(item.children[2].textContent, pIndex + 1);
+    if(nIndex === mIndex && nIndex === pIndex && mIndex === pIndex)
+        temp = false;
+    }
 
-    //item.children[i].innerText
+    lName.splice(nIndex,1);
+    lModel.splice(mIndex,1);
+    lPrice.splice(pIndex,1);
+
+    localStorage.setItem('lName', JSON.stringify(lName));
+    localStorage.setItem('lModel', JSON.stringify(lModel));
+    localStorage.setItem('lPrice', JSON.stringify(lPrice));
+
+    if(lName.length  === 0 && lModel.length === 0 && lPrice.length === 0)
+        tableEl.style.display = 'none';
 }
