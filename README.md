@@ -37,14 +37,17 @@
 ![](7-typewriter-animation/7.gif)<br>
 [DEMO](https://codepen.io/pen/?editors=0100) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/7-typewriter-animation)
 
-
 8. Sieve of Eratosthenes
 
 ![](8-sieve-of-eratosthenes/8.gif)<br>
 [DEMO](https://codepen.io/mahmuttz/pen/QWprGLP) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/8-sieve-of-eratosthenes/final/)
 
-
 9. Multiple Choice Question Form
 
 ![](9-multiple-choice-question-form/9.gif)<br>
 [DEMO](https://codepen.io/mahmuttz/pen/JjWmjwO) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/9-multiple-choice-question-form/final/)
+
+10. Color Watch
+
+![](10-color-watch/10.gif)<br>
+[DEMO](https://codepen.io/mahmuttz/pen/LYWXwbe) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/10-color-watch/final/)
