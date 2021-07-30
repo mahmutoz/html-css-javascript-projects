@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Poppins", monospace;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 -1px 18px 2px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  margin: 0.5em;
+  border-radius: 5px;
+}
+
+.captcha-head {
+  display: flex;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.captcha-body {
+  position: relative;
+  width: 100%;
+  height: 4em;
+}
+
+.captcha-img {
+  width: 100%;
+  height: 4em;
+  border-radius: 5px;
+}
+
+.rand-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 2.4em;
+  letter-spacing: 0.3em;
+  line-height: 1em;
+  font-weight: 500;
+  font-style: italic;
+  text-decoration: line-through;
+  user-select: none;
+  opacity: 0.85;
+}
+
+.btn-repeat {
+  width: 5em;
+  height: auto;
+  margin-left: 0.5em;
+  border: none;
+  background-color: skyblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-repeat i {
+  font-size: 2.2em;
+  color: rgb(243, 241, 241);
+  transition: 0.2s all linear;
+}
+
+.btn-repeat:hover i {
+  transform: rotate(20deg);
+}
+
+.captcha-form {
+  position: relative;
+}
+
+.captcha-input {
+  width: 100%;
+  height: 1.8em;
+  padding: 0.3em 0.5em;
+  font-size: 1.8em;
+  font-weight: 500;
+  color: #444;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn-check {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  padding: 0.3em 0.5em;
+  right: 0.3em;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  font-size: 1.3em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s all linear;
+  border-radius: 3px;
+  background-color: rgba(170, 84, 251, 0.883);
+  color: #fff;
+}
+
+.captcha-input:focus {
+  /* border: 2px solid rgba(90, 186, 250, 0.6); */
+  box-shadow: 0 0 2px 1px rgba(96, 167, 233, 0.8);
+}
+
+.captcha-input:valid + .btn-check {
+  display: block;
+  opacity: 1;
+}
+
+.captcha-msg {
+  display: none;
+  margin-top: 1em;
+  font-weight: 500;
+}

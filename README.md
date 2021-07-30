@@ -51,3 +51,8 @@
 
 ![](10-color-watch/10.gif)<br>
 [DEMO](https://codepen.io/mahmuttz/pen/LYWXwbe) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/10-color-watch/final/)
+
+11. Custom Captcha
+
+![](11-custom-captcha/11.gif)<br>
+[DEMO](https://codepen.io/mahmuttz/pen/eYWrjJx) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/11-custom-captcha/final/)
