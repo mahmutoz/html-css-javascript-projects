@@ -56,3 +56,8 @@
 
 ![](11-custom-captcha/11.gif)<br>
 [DEMO](https://codepen.io/mahmuttz/pen/eYWrjJx) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/11-custom-captcha/final/)
+
+12. Canvas Lines
+
+![](12-canvas-lines/12.gif)<br>
+[DEMO](https://codepen.io/mahmuttz/full/MWoowXZ) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/12-canvas-lines/final/)
