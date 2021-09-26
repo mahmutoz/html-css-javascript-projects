@@ -61,3 +61,8 @@
 
 ![](12-canvas-lines/12.gif)<br>
 [DEMO](https://codepen.io/mahmuttz/full/MWoowXZ) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/12-canvas-lines/final/)
+
+13. Slugify
+
+![](13-slugify/13.gif)<br>
+[DEMO](https://codepen.io/mahmuttz/full/oNwQWQV) | [Repo](https://github.com/mahmutoz/javascript-projects/tree/main/13-slugify/final/)
