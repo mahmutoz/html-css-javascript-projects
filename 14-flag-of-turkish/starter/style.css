@@ -1,0 +1,20 @@
+:root {
+  --height: 100vh;
+  --width: calc(var(--height) * 1.5);
+  --color: #e30a17;
+  --moon-r: calc(var(--height) / 2);
+  --moon-inner-r: calc(var(--height) * 0.4);
+  --moon-inner-position: calc(var(--moon-r) + (var(--height) / 16));
+  --color-red: #e30a17;
+  --star-r: calc(var(--height) / 4);
+  --star-position: calc(
+    (var(--moon-inner-position) - (var(--moon-inner-r) / 2)) +
+      (var(--height) / 3)
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,74 @@
+:root {
+  --height: 100vh;
+  --width: calc(var(--height) * 1.5);
+  --color: #e30a17;
+  --moon-r: calc(var(--height) / 2);
+  --moon-inner-r: calc(var(--height) * 0.4);
+  --moon-inner-position: calc(var(--moon-r) + (var(--height) / 16));
+  --color-red: #e30a17;
+  --star-r: calc(var(--height) / 4);
+  --star-position: calc(
+    (var(--moon-inner-position) - (var(--moon-inner-r) / 2)) +
+      (var(--height) / 3)
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flag {
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+  background-color: var(--color-red);
+}
+
+.flag::before {
+  content: '';
+  width: var(--moon-r);
+  height: var(--moon-r);
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: var(--moon-r);
+  transform: translate(-50%, -50%);
+}
+
+.flag::after {
+  content: '';
+  width: var(--moon-inner-r);
+  height: var(--moon-inner-r);
+  background-color: var(--color-red);
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: var(--moon-inner-position);
+  transform: translate(-50%, -50%);
+}
+
+.star {
+  width: var(--star-r);
+  height: var(--star-r);
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  background: #fff;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: var(--star-position);
+  transform: translateY(-50%) rotate(-18deg);
+}
