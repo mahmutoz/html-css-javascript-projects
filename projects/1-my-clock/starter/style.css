@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+
+:focus-visible {
+  outline: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #fbf8f4
+    url(https://tympanus.net/Tutorials/ProximityEffect/images/bg.jpg);
+  font-family: "Source Serif Pro";
+}
+
+#container {
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  background: black;
+  border-radius: 5%;
+}
+
+h3 {
+  text-align: center;
+  margin: 0;
+  font-size: 3rem;
+  padding: 10px 60px;
+}
+
+hr {
+  margin: 0 0.5rem;
+  height: 0.1rem;
+  background-color: white;
+}
+
+form {
+  font-size: 20px;
+  padding: 0 90px 20px;
+}
+
+#UTC {
+  cursor: pointer;
+  padding: 3px 15px;
+}
