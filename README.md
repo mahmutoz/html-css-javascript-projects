@@ -4,80 +4,84 @@
 
 1. My Clock
 
-![](1-my-clock/1.png)<br> [DEMO](https://codepen.io/mahmuttz/pen/BaoEmEG) |
-[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/1-my-clock)
+![](projects/1-my-clock/1.png)<br>
+[DEMO](https://codepen.io/mahmuttz/pen/BaoEmEG) |
+[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/projects/1-my-clock)
 
 2. Custom Cursor
 
-![](2-custom-cursor/2.gif)<br> [DEMO](https://codepen.io/mahmuttz/pen/qBrrYdW) |
-[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/2-custom-cursor)
+![](projects/2-custom-cursor/2.gif)<br>
+[DEMO](https://codepen.io/mahmuttz/pen/qBrrYdW) |
+[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/projects/2-custom-cursor)
 
 3. Scratch Background
 
-![](3-scratch-background/scratch.gif)<br>
+![](projects/3-scratch-background/scratch.gif)<br>
 [DEMO](https://codepen.io/mahmuttz/pen/GRWvdWK) |
-[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/3-scratch-background)
+[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/projects/3-scratch-background)
 
 4. Coming Soon Page
 
-![](4-coming-soon/4.png)<br>
+![](projects/4-coming-soon/4.png)<br>
 [DEMO](https://codepen.io/mahmuttz/pen/WNpjKPR?editors=1000) |
-[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/4-coming-soon)
+[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/projects/4-coming-soon)
 
 5. Battery Status
 
-![](5-battery-status/5.gif)<br> [DEMO](https://codepen.io/mahmuttz/pen/YzZEgzW)
-|
-[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/5-battery-status)
+![](projects/5-battery-status/5.gif)<br>
+[DEMO](https://codepen.io/mahmuttz/pen/YzZEgzW) |
+[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/projects/5-battery-status)
 
 6. Product Add & Delete
 
-![](6-product-add-delete/6.png)<br>
+![](projects/6-product-add-delete/6.png)<br>
 [DEMO](https://codepen.io/mahmuttz/pen/qBrpzMb) |
-[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/6-product-add-delete)
+[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/projects/6-product-add-delete)
 
 7. Typewriter Animation
 
-![](7-typewriter-animation/7.gif)<br>
+![](projects/7-typewriter-animation/7.gif)<br>
 [DEMO](https://codepen.io/pen/?editors=0100) |
-[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/7-typewriter-animation)
+[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/projects/7-typewriter-animation)
 
 8. Sieve of Eratosthenes
 
-![](8-sieve-of-eratosthenes/8.gif)<br>
+![](projects/8-sieve-of-eratosthenes/8.gif)<br>
 [DEMO](https://codepen.io/mahmuttz/pen/QWprGLP) |
-[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/8-sieve-of-eratosthenes/final/)
+[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/projects/8-sieve-of-eratosthenes/final/)
 
 9. Multiple Choice Question Form
 
-![](9-multiple-choice-question-form/9.gif)<br>
+![](projects/9-multiple-choice-question-form/9.gif)<br>
 [DEMO](https://codepen.io/mahmuttz/pen/JjWmjwO) |
-[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/9-multiple-choice-question-form/final/)
+[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/projects/9-multiple-choice-question-form/final/)
 
 10. Color Watch
 
-![](10-color-watch/10.gif)<br> [DEMO](https://codepen.io/mahmuttz/pen/LYWXwbe) |
-[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/10-color-watch/final/)
+![](projects/10-color-watch/10.gif)<br>
+[DEMO](https://codepen.io/mahmuttz/pen/LYWXwbe) |
+[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/projects/10-color-watch/final/)
 
 11. Custom Captcha
 
-![](11-custom-captcha/11.gif)<br>
+![](projects/11-custom-captcha/11.gif)<br>
 [DEMO](https://codepen.io/mahmuttz/pen/eYWrjJx) |
-[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/11-custom-captcha/final/)
+[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/projects/11-custom-captcha/final/)
 
 12. Canvas Lines
 
-![](12-canvas-lines/12.gif)<br> [DEMO](https://codepen.io/mahmuttz/full/MWoowXZ)
-|
-[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/12-canvas-lines/final/)
+![](projects/12-canvas-lines/12.gif)<br>
+[DEMO](https://codepen.io/mahmuttz/full/MWoowXZ) |
+[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/projects/12-canvas-lines/final/)
 
 13. Slugify
 
-![](13-slugify/13.gif)<br> [DEMO](https://codepen.io/mahmuttz/full/oNwQWQV) |
-[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/13-slugify/final/)
+![](projects/13-slugify/13.gif)<br>
+[DEMO](https://codepen.io/mahmuttz/full/oNwQWQV) |
+[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/projects/13-slugify/final/)
 
 14. Flag of Turkish
 
-![](14-flag-of-turkish/14.png)<br>
+![](projects/14-flag-of-turkish/14.png)<br>
 [DEMO](https://codepen.io/mahmuttz/pen/MWvEaqb) |
-[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/14-flag-of-turkish/final/)
+[Repo](https://github.com/mahmutoz/javascript-projects/tree/main/projects/14-flag-of-turkish/final/)
